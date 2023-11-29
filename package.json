@@ -1,0 +1,28 @@
+{
+  "name": "git-hub-app",
+  "version": "1.0.0",
+  "description": "codemate",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sankeerth-g7/git-hub-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sankeerth-g7/git-hub-app/issues"
+  },
+  "homepage": "https://github.com/Sankeerth-g7/git-hub-app#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "octokit": "^3.1.2"
+  },
+  "devDependencies": {
+    "smee-client": "^2.0.0"
+  }
+}
