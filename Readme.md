@@ -2,13 +2,13 @@
 
 ## Overview
 
-Welcome to the GitHub App repository created as part of a screening test for codemate.ai. This app is designed for handling Pull Requests (PRs) with special features: "Explain" and "Execute." The "Explain" feature allows users to trigger an explanation process by including "/explain" in the commit message, and the app sends the changed code of that commit to the OpenAI language model (LLM) known as Davinci. Additionally, the "Execute" feature allows users to execute selected code changes in a PR comment using the Piston API.
+Welcome to the GitHub App repository created as part of a screening test for codemate.ai. This app is designed for handling Pull Requests (PRs) with special features: "Explain" and "Execute." The "Explain" feature allows users to trigger an explanation process by including "/explain" in the commit message, and the app sends the changed code of that commit to the OpenAI language model (LLM) known as gpt-3.5. Additionally, the "Execute" feature allows users to execute selected code changes in a PR comment using the Piston API.
 
 ## Features
 
 - **Explain Command:**
   - If a commit message in a PR contains "/explain," the app initiates an explanation process.
-  - The changed code from that specific commit is sent to the Davinci language model.
+  - The changed code from that specific commit is sent to the gpt-3.5 language model.
 
 
 - **Execute Command:**
@@ -77,6 +77,6 @@ To use the Execute feature, follow these steps:
 ## Future Work
 
 - **Explain Feature:**
-  - THe app currently uses the Davinci language model for the explanation process. However, the app can be extended to support other language models such as Codex and Curie.
+  - THe app currently uses the gpt-3.5 language model for the explanation process. However, the app can be extended to support other language models such as Codex and Curie.
   - The LLM can be fine-tuned to improve the quality of the explanation results.
   - The results can be improved by using a better pre-processing technique for the code.
