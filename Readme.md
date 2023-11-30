@@ -4,6 +4,10 @@
 
 Welcome to the GitHub App repository created as part of a screening test for codemate.ai. This app is designed for handling Pull Requests (PRs) with special features: "Explain" and "Execute." The "Explain" feature allows users to trigger an explanation process by including "/explain" in the commit message, and the app sends the changed code of that commit to the OpenAI language model (LLM) known as gpt-3.5. Additionally, the "Execute" feature allows users to execute selected code changes in a PR comment using the Piston API.
 
+## Demo
+
+Video Link : [here](https://drive.google.com/file/d/12z5sWc_7lGC8bkMT3ALRr0kX4vXb_axt/view?usp=sharing)
+
 ## Features
 
 - **Explain Command:**
@@ -30,7 +34,8 @@ To get started with the GitHub App and leverage the Explain and Execute features
     ```
 3. **Run the App:**
     ```bash
-    npm start
+    dev - npm run dev
+    prod - npm start
     ```
 4. **Install the App on GitHub:**
     - Navigate to the [GitHub App]("https://github.com/apps/myappmate")
