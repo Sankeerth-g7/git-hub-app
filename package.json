@@ -1,29 +1,25 @@
 {
-  "name": "git-hub-app",
+  "name": "app",
   "version": "1.0.0",
-  "description": "codemate",
-  "type": "module",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sankeerth-g7/git-hub-app.git"
-  },
-  "author": "",
+  "keywords": [],
+  "author": "Rishi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sankeerth-g7/git-hub-app/issues"
-  },
-  "homepage": "https://github.com/Sankeerth-g7/git-hub-app#readme",
   "dependencies": {
+    "axios": "^1.6.2",
     "dotenv": "^16.3.1",
     "octokit": "^3.1.2",
     "openai": "^4.20.1"
   },
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "smee-client": "^2.0.0"
   }
 }
